@@ -1,0 +1,31 @@
+header {
+  padding: 150px 50px;
+  width: 100%;
+  box-sizing: border-box;
+  /* background-color: cadetblue;
+  background-image: url(/assets/ola.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right; */
+  background: right / contain cadetblue url(/assets/ola.png) no-repeat;
+}
+
+.container {
+  display: flex;
+  margin: 0 0 20px;
+}
+
+.cuadrado {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  /* display: inline-block; */
+}
+
+.rojo {
+  background-color: #b01c1c;
+}
+
+.verde {
+  background-color: #30a609;
+}
