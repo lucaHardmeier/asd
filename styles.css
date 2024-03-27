@@ -8,11 +8,6 @@ header {
   padding: 150px 50px;
   width: 100%;
   box-sizing: border-box;
-  /* background-color: cadetblue;
-  background-image: url(/assets/ola.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right; */
   background: right / contain cadetblue url(/assets/ola.png) no-repeat;
 }
 
