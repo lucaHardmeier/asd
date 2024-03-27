@@ -1,3 +1,9 @@
+:root {
+  --main-color: #b01c1c;
+  --main-color-dark: #881616;
+  --square-size: 300px;
+}
+
 header {
   padding: 150px 50px;
   width: 100%;
@@ -16,16 +22,27 @@ header {
 }
 
 .cuadrado {
-  height: 200px;
-  width: 200px;
-  background-color: #b01c1c;
-  /* display: inline-block; */
+  height: var(--square-size);
+  border: 5px solid #1c1c1c;
+  background-color: bisque;
 }
 
 .rojo {
-  background-color: #b01c1c;
+  background-color: var(--main-color);
 }
 
 .verde {
   background-color: #30a609;
+}
+
+.bg-custom-dark {
+  background-color: #030543;
+}
+
+header h1 b.title-bold.custom-bold#link {
+  color: #030543 !important;
+}
+
+.title-bold {
+  color: #881616;
 }
