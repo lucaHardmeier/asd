@@ -1,0 +1,46 @@
+.paint-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paint {
+  height: 70vh;
+  width: 70vh;
+  background-color: #19171a;
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-rows: 3fr 2fr 1fr;
+  grid-template-areas:
+    "yellow red red "
+    "leftwhite red red"
+    "blue middlewhite rightwhite";
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.red-bg {
+  background-color: #e00d1e;
+  grid-area: red;
+}
+.blue-bg {
+  background-color: #08388a;
+  grid-area: blue;
+}
+.yellow-bg {
+  background-color: #ffdd0a;
+  grid-area: yellow;
+}
+.white-bg {
+  background-color: #e6e4e5;
+}
+.left-white {
+  grid-area: leftwhite;
+}
+.middle-white {
+  grid-area: middlewhite;
+}
+.right-white {
+  grid-area: rightwhite;
+}
